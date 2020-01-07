@@ -29,12 +29,6 @@
   </scm>
   <developers>
     <developer>
-      <id>sxjlinux</id>
-      <name>Sunxj</name>
-      <email>715763894@qq.com</email>
-      <url>https://github.com/sxjlinux</url>
-    </developer>
-    <developer>
       <id>apuex</id>
       <name>Wangxy</name>
       <email>xtwxy@hotmail.com</email>
@@ -118,8 +112,13 @@
 
     <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
     <maven-jar-plugin.version>3.1.0</maven-jar-plugin.version>
-    <maven-source-plugin.version>3.0.1</maven-source-plugin.version>
-    <maven-javadoc-plugin.version>3.0.1</maven-javadoc-plugin.version>
+    <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+    <build-helper-maven-plugin.version>3.0.0</build-helper-maven-plugin.version>
+    <exec-maven-plugin.version>1.6.0</exec-maven-plugin.version>
+    <maven-source-plugin.version>3.1.0</maven-source-plugin.version>
+    <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
+    <maven-assembly-plugin.version>3.1.0</maven-assembly-plugin.version>
+    <maven-javadoc-plugin.version>3.1.0</maven-javadoc-plugin.version>
     <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
 
     <nexus-staging-maven-plugin.version>1.6.8</nexus-staging-maven-plugin.version>
